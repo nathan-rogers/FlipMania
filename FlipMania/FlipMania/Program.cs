@@ -65,8 +65,7 @@ namespace FlipMania
             int numberOfHeadsFlipped = 0;
             int totalFlips = 0;
             Random rng = new Random();
-            //message to user
-            Console.WriteLine("We are flipping a coin until we find " + numberOfHeads + " heads.");
+            
 
             //continue loop until desired number of heads flipped
             while (numberOfHeadsFlipped != numberOfHeads)
@@ -83,6 +82,9 @@ namespace FlipMania
 
                 }
                 totalFlips++;
+
+                //message to user
+                Console.WriteLine("We are flipping a coin until we find " + numberOfHeads + " heads.");
 
             }
 
